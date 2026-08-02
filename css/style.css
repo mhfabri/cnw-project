@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f6f0e7;
+    color:#33251c;
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+/*VARIÁVEIS*/
+
+:root{
+    --bgnav:rgba(246, 240, 231, 0.85);
+    --bg:#f6f0e7;
+    --white:#ffffff;
+    --gold:#caa45d;
+    --gold-dark:#a98542;
+    --text:#2d2118;
+    --text-light:#756a62;
+    --green:#29543d;
+    --border:#fdbe6b;
+    --font: "Cormorant Garamond",serif;
+}
+
+.font{
+    font-family:var(--font);
+}
+
+/*CONTAINER*/
+
+.container{
+    width:1200px;
+    max-width:90%;
+    margin:auto;
+}
+
+/*HEADER*/
+
+.header{
+
+    width:100%;
+    background:var(--bgnav);
+    border-bottom:1px solid var(--border);
+    
+    position:sticky;
+    top:0;
+    z-index:999;
+
+}
+
+.nav{
+
+    height:90px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+.logo{
+
+    font-family:"Cormorant Garamond",serif;
+    font-size:28px;
+    letter-spacing:2px;
+    font-weight:600;
+
+}
+
+.logo span{
+
+    color:var(--gold);
+
+}
+
+.menu{
+
+    display:flex;
+    gap:45px;
+
+}
+
+.menu a{
+
+    font-size:20px;
+    letter-spacing:2px;
+    color:#6d6157;
+    transition:.35s;
+
+}
+
+.menu a:hover{
+
+    color:var(--gold);
+
+}
+
+.btn-nav{
+
+    background:var(--green);
+    color:#fff;
+
+    padding:13px 22px;
+
+    border-radius:2px;
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.btn-nav:hover{
+
+    background:#1d3f2d;
+
+    transform:translateY(-2px);
+
+}
+
+/*HERO*/
+
+.hero{
+
+    padding:90px 0 120px;
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1.15fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+/*TEXTO*/
+
+.eyebrow{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:12px;
+
+    color:var(--gold);
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    margin-bottom:30px;
+
+}
+
+.eyebrow::before{
+
+    content:"";
+
+    width:45px;
+
+    height:1px;
+
+    background:var(--gold);
+
+}
+
+.hero h1{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:72px;
+
+    line-height:0.95;
+
+    font-weight:600;
+
+    margin-bottom:28px;
+
+    color:var(--text);
+
+}
+
+.hero h1 span{
+
+    color:var(--gold);
+
+    font-style:italic;
+
+}
+
+.hero p{
+
+    max-width:480px;
+
+    line-height:1.9;
+
+    color:var(--text-light);
+
+    font-size:16px;
+
+    margin-bottom:40px;
+
+}
+
+/*BOTÕES*/
+
+.hero-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+    margin-bottom:60px;
+
+}
+
+.btn-primary{
+
+    background:var(--green);
+
+    color:#fff;
+
+    padding:16px 34px;
+
+    letter-spacing:2px;
+
+    font-size:12px;
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+    background:#1f4130;
+
+    transform:translateY(-3px);
+
+}
+
+.link-secondary{
+
+    color:#6d6157;
+    transition:.3s;
+    border-bottom:1px solid var(--gold-dark);
+}
+
+.link-secondary:hover{
+
+    color:var(--gold);
+    transform:translateY(-3px);
+}
+
+/*ESTATÍSTICAS*/
+
+.stats{
+
+    display:flex;
+
+    gap:60px;
+
+    padding-top:30px;
+
+    border-top:1px solid var(--border);
+
+}
+
+.stat{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.stat strong{
+
+    /* font-family:"Cormorant Garamond",serif; */
+
+    font-size:34px;
+
+    color:var(--gold);
+
+}
+
+.stat span{
+
+    color:#8b8078;
+
+    font-size:13px;
+
+    letter-spacing:1px;
+
+}
+
+/*FOTO HERO*/
+
+.hero-image{
+
+    position:relative;
+
+}
+
+.hero-image img{
+
+    height:760px;
+
+    object-fit:cover;
+
+    box-shadow:0 30px 60px rgba(0,0,0,.12);
+
+}
+
+/*CARD FLUTUANTE*/
+
+.floating-card{
+
+    position:absolute;
+
+    right:-25px;
+
+    bottom:35px;
+
+    background:#fff;
+
+    padding:22px;
+
+    width:240px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.floating-card span{
+
+    display:block;
+
+    color:var(--gold);
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+    margin-bottom:10px;
+
+}
+
+.floating-card strong{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:24px;
+
+    font-weight:600;
+
+}
