@@ -195,6 +195,20 @@
 
 }
 
+
+.legado-p{
+    font-family: var(--font);
+    text-decoration: bold;
+    font-size: 1.8rem;
+    
+}
+
+.legad{
+    padding: 0;
+}
+
+
+
 /*RESPONSIVO DA SEÇÃO*/
 
 @media (max-width:1100px){
