@@ -41,7 +41,7 @@ A estética do projeto utiliza elementos visuais inspirados no universo da alta 
 
 ### Página inicial
 
-![Página inicial do projeto](img\print1.png)
+![Página inicial do projeto](<img width="945" height="638" alt="print1" src="https://github.com/user-attachments/assets/6a2bebad-7943-441b-858c-12b66c2ee900" />)
 
 
 
@@ -49,7 +49,8 @@ A estética do projeto utiliza elementos visuais inspirados no universo da alta 
 
 ### Outra página do projeto
 
-![Pagina de Coleção](img\print2.png)
+![Pagina de Coleção](<img width="796" height="562" alt="print2" src="https://github.com/user-attachments/assets/4566c914-d781-4bbc-bf16-edec277d66e9" />
+)
 
 ---
 
