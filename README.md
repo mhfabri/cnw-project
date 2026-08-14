@@ -6,7 +6,7 @@ A **Estrelar** é uma landing page desenvolvida para uma loja de joias francesa 
 
 O projeto foi desenvolvido utilizando HTML5 e CSS3, com foco na criação de uma interface moderna, organizada e responsiva, explorando elementos visuais que remetem ao universo de joias de luxo e à tradição da joalheria francesa.
 
-Este projeto foi realizado como atividade acadêmica para a disciplina de Computação em Nuvem Para Web, do curso de Informática Para Internet** da **ETEC Maria Cristina Medeiros.
+Este projeto foi realizado como atividade acadêmica para a disciplina de Computação em Nuvem Para Web, do curso de Informática Para Internet da ETEC Maria Cristina Medeiros.
 
 ---
 
