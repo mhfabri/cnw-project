@@ -249,3 +249,42 @@
     }
 
 }
+
+@media (max-width: 768px){
+
+    .collection{
+        padding:90px 0;
+    }
+
+    .section-head{
+        flex-direction:column;
+        align-items:flex-start;
+        margin-bottom:40px;
+    }
+
+    .section-head h2{
+        font-size:42px;
+    }
+
+    .products{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+    .product-info{
+        padding:22px;
+    }
+
+    .product-info h3{
+        font-size:28px;
+    }
+
+    .price{
+        font-size:24px;
+    }
+
+    .product-image img{
+        height:320px;
+    }
+
+}
